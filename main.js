@@ -66,3 +66,15 @@ const person = {
 
 // to access value inside object we used name of object followed by dot folewe property or key value
 console.log(person.firstName)
+
+// other nonprimitive data type is Arry
+const oddNumbers = [1,3,5,7,9]
+console.log(oddNumbers[0]) //output = 1
+console.log(oddNumbers[2]) //output = 5
+console.log(oddNumbers[1]) //output = 3
+
+
+let a = 2
+a = 'Rafi'
+a = true 
+console.log(a)
