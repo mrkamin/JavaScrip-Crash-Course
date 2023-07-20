@@ -17,7 +17,7 @@ console.log(sum) */
 /* Primative DATA TYPE */
 /* STRING DATA TYPE*/
 
-// stign can defined with single quotes
+/* // stign can defined with single quotes
 const name = 'Mohammad'
 // string can be defined with double quotes
 const luanguege = "JS"
@@ -26,45 +26,45 @@ const channal = `Galuxy`
 
 /* NUMBER DATA TYPE */
 // number can be defiend with integer
-const total = 4
+/* const total = 4
 //number can be defiend with float 
-const PI = 3.14
+const PI = 3.14  */
 
 /* BOOLEAM DATA TYPE ‌*/
 // boolean cant be defiend with true and false
-const isPrimaryNumber = true
-const isNumber = false
+/* const isPrimaryNumber = true
+const isNumber = false */
 
 
 /* UNDIFINED DATA TYPE */
 // undifined reprsent value which is not assinged 
 
 // if a variable decleard with no value its value is undefined
-let result 
+/* let result 
 // if we console result it vlue will be undefined
 console.log(result)
 // and also we can use undefined explicitly 
-const res = undefined
+const res = undefined */
 
 
 /* null data type */
 // is a spacil data type in js that repersent unknown data
 
-const data = null
+/* const data = null */
 
 /* NON PRIMATEV DATA TYPE */
 // OBJCT
-const person = {
+/* const person = {
     'firstName': 'Mohammad',
     'lastName': 'Amin',
     'age': 30
 }
-
+ */
 // inside cruly braces we have property which is called key also and value 
 // property can be string and symbol data type 
 // value can be any kind of data type
 
-// to access value inside object we used name of object followed by dot folewe property or key value
+/* // to access value inside object we used name of object followed by dot folewe property or key value
 console.log(person.firstName)
 
 // other nonprimitive data type is Arry
@@ -77,4 +77,50 @@ console.log(oddNumbers[1]) //output = 3
 let a = 2
 a = 'Rafi'
 a = true 
-console.log(a)
+console.log(a) */
+
+
+//  Operators 
+//	Assignment operators
+let x = 10
+let y = 5
+//	Arithmetic Operators
+console.log(x + y)// output = 15
+console.log(x - y)// output = 5
+console.log(x * y)// output = 50
+console.log(x / y)// output = 2
+console.log(x % y)// output = 0
+console.log(++x)// output = 11
+console.log(++y)// output = 6
+console.log(--x)// output = 9
+console.log(--y)// output = 4
+//	Comparison Operators
+console.log(x == y)// output = false
+console.log(x != y)// output = true
+console.log(x === y)// output = false
+console.log(x !== y)// output = true
+console.log(x < y)// output = false
+console.log(x <= y)// output = false
+console.log(x > y)// output = true
+console.log(x >= y)// output = true
+console.log(x !== y)// output = true
+//	Logical Operators
+const isValidNumberand = x > 8 && 8 > y // && is read and
+console.log(isValidNumberand)// output = true
+const isValidNumberor = x > 20 || 8 > y // || is read or
+console.log(isValidNumberor)// output = true
+const isValidNumbernot = true // ! is read not
+console.log(!isValidNumbernot)// output = false
+//	String Operators
+console.log('Mohammad','RAfi')//output = Mohammad Rafi
+console.log('Mohammad'+'RAfi')//output = MohammadRafi
+console.log('Mohammad '+'RAfi')//output = Mohammad Rafi
+
+
+//	Other Operators
+ 
+const isEvenmodule = 10 % 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
+console.log(isEvenmodule)// output = number is even
+
+const isEvendivide = 10 / 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
+console.log(isEvendivide)// output = number is odd
