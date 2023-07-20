@@ -14,7 +14,7 @@ let sum = 0
 sum = 8000
 console.log(sum) */
 
-/* DATA TYPE */
+/* Primative DATA TYPE */
 /* STRING DATA TYPE*/
 
 // stign can defined with single quotes
@@ -51,3 +51,18 @@ const res = undefined
 // is a spacil data type in js that repersent unknown data
 
 const data = null
+
+/* NON PRIMATEV DATA TYPE */
+// OBJCT
+const person = {
+    'firstName': 'Mohammad',
+    'lastName': 'Amin',
+    'age': 30
+}
+
+// inside cruly braces we have property which is called key also and value 
+// property can be string and symbol data type 
+// value can be any kind of data type
+
+// to access value inside object we used name of object followed by dot folewe property or key value
+console.log(person.firstName)
