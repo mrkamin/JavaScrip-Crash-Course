@@ -80,47 +80,47 @@ a = true
 console.log(a) */
 
 
-//  Operators 
-//	Assignment operators
-let x = 10
-let y = 5
-//	Arithmetic Operators
-console.log(x + y)// output = 15
-console.log(x - y)// output = 5
-console.log(x * y)// output = 50
-console.log(x / y)// output = 2
-console.log(x % y)// output = 0
-console.log(++x)// output = 11
-console.log(++y)// output = 6
-console.log(--x)// output = 9
-console.log(--y)// output = 4
-//	Comparison Operators
-console.log(x == y)// output = false
-console.log(x != y)// output = true
-console.log(x === y)// output = false
-console.log(x !== y)// output = true
-console.log(x < y)// output = false
-console.log(x <= y)// output = false
-console.log(x > y)// output = true
-console.log(x >= y)// output = true
-console.log(x !== y)// output = true
-//	Logical Operators
-const isValidNumberand = x > 8 && 8 > y // && is read and
-console.log(isValidNumberand)// output = true
-const isValidNumberor = x > 20 || 8 > y // || is read or
-console.log(isValidNumberor)// output = true
-const isValidNumbernot = true // ! is read not
-console.log(!isValidNumbernot)// output = false
-//	String Operators
-console.log('Mohammad','RAfi')//output = Mohammad Rafi
-console.log('Mohammad'+'RAfi')//output = MohammadRafi
-console.log('Mohammad '+'RAfi')//output = Mohammad Rafi
+// //  Operators 
+// //	Assignment operators
+// let x = 10
+// let y = 5
+// //	Arithmetic Operators
+// console.log(x + y)// output = 15
+// console.log(x - y)// output = 5
+// console.log(x * y)// output = 50
+// console.log(x / y)// output = 2
+// console.log(x % y)// output = 0
+// console.log(++x)// output = 11
+// console.log(++y)// output = 6
+// console.log(--x)// output = 9
+// console.log(--y)// output = 4
+// //	Comparison Operators
+// console.log(x == y)// output = false
+// console.log(x != y)// output = true
+// console.log(x === y)// output = false
+// console.log(x !== y)// output = true
+// console.log(x < y)// output = false
+// console.log(x <= y)// output = false
+// console.log(x > y)// output = true
+// console.log(x >= y)// output = true
+// console.log(x !== y)// output = true
+// //	Logical Operators
+// const isValidNumberand = x > 8 && 8 > y // && is read and
+// console.log(isValidNumberand)// output = true
+// const isValidNumberor = x > 20 || 8 > y // || is read or
+// console.log(isValidNumberor)// output = true
+// const isValidNumbernot = true // ! is read not
+// console.log(!isValidNumbernot)// output = false
+// //	String Operators
+// console.log('Mohammad','RAfi')//output = Mohammad Rafi
+// console.log('Mohammad'+'RAfi')//output = MohammadRafi
+// console.log('Mohammad '+'RAfi')//output = Mohammad Rafi
 
 
-//	Other Operators
+// //	Other Operators
  
-const isEvenmodule = 10 % 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
-console.log(isEvenmodule)// output = number is even
+// const isEvenmodule = 10 % 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
+// console.log(isEvenmodule)// output = number is even
 
-const isEvendivide = 10 / 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
-console.log(isEvendivide)// output = number is odd
+// const isEvendivide = 10 / 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
+// console.log(isEvendivide)// output = number is even
