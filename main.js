@@ -1,7 +1,7 @@
-console.log('hellowrod form main.js')
+/* console.log('hellowrod form main.js') */
 
-
-// with let onece initalized it can be reassigned
+/*  Variables */
+/* // with let onece initalized it can be reassigned
 let age = 32
 console.log(age)
 // const onec initalized can't reassigned
@@ -12,4 +12,42 @@ console.log(salary)
 
 let sum = 0 
 sum = 8000
-console.log(sum)
+console.log(sum) */
+
+/* DATA TYPE */
+/* STRING DATA TYPE*/
+
+// stign can defined with single quotes
+const name = 'Mohammad'
+// string can be defined with double quotes
+const luanguege = "JS"
+// string can be defined with back tag
+const channal = `Galuxy`
+
+/* NUMBER DATA TYPE */
+// number can be defiend with integer
+const total = 4
+//number can be defiend with float 
+const PI = 3.14
+
+/* BOOLEAM DATA TYPE ‌*/
+// boolean cant be defiend with true and false
+const isPrimaryNumber = true
+const isNumber = false
+
+
+/* UNDIFINED DATA TYPE */
+// undifined reprsent value which is not assinged 
+
+// if a variable decleard with no value its value is undefined
+let result 
+// if we console result it vlue will be undefined
+console.log(result)
+// and also we can use undefined explicitly 
+const res = undefined
+
+
+/* null data type */
+// is a spacil data type in js that repersent unknown data
+
+const data = null
