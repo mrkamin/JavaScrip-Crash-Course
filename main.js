@@ -191,14 +191,41 @@ console.log(a) */
 
 // Equallty
 
-const var1 = 'test'
-const var2 = 'test'
+// const var1 = 'test'
+// const var2 = 'test'
 
-console.log(var1 == var2)//output is true
-console.log(var1 === var2)//output is true
+// console.log(var1 == var2)//output is true
+// console.log(var1 === var2)//output is true
 
-const var3 = 10
-const var4 = '10'
+// const var3 = 10
+// const var4 = '10'
 
-console.log(var3 == var4)// output is true
-console.log(var3 === var4)//output is false
+// console.log(var3 == var4)// output is true
+// console.log(var3 === var4)//output is false
+
+// Condation
+
+const num = 5
+
+if (num > 0) {
+    console.log('Number is Positive')
+}
+// output is = Number is positive
+
+const num2 = -5
+if (num2 > 0) {
+    console.log('Number is Positive')
+} else {
+    console.log('Number is Negative')
+}
+// output is = Number is Negative
+
+const num3 = 0
+if (num3 > 0) {
+    console.log('Number is Positive')
+} else if (num3 < 0) {
+    console.log('Number is negative')
+} else {
+    console.log('Number is Zero')
+}
+//out put is = Number is Zero
