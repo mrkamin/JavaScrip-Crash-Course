@@ -160,10 +160,16 @@ console.log(a) */
 // console.log(parseInt(undefined)) //output is NaN
 // console.log(parseInt('')) //output is NaN
 
-console.log(parseFloat('5.5'))//output is 5.5
-console.log(parseFloat(false))//output is NaN
-console.log(parseFloat(true)) //output is NaN
-console.log(parseFloat(null))//output is NaN
-console.log(parseFloat(undefined)) //output is NaN
-console.log(parseFloat('')) //output is NaN
+// console.log(parseFloat('5.5'))//output is 5.5
+// console.log(parseFloat(false))//output is NaN
+// console.log(parseFloat(true)) //output is NaN
+// console.log(parseFloat(null))//output is NaN
+// console.log(parseFloat(undefined)) //output is NaN
+// console.log(parseFloat('')) //output is NaN
 
+console.log(String(500))//output is 500 as string
+console.log(String(false))//output is fakse as string
+console.log(String(true)) //output is true as a string
+console.log(String(null))//output is null as a string
+console.log(String(undefined)) //output is undefined as a string
+console.log(String('')) //output is empty string
