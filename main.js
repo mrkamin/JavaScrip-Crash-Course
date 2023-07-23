@@ -137,3 +137,9 @@ console.log('2' * '4')// output is 8
 console.log('2' / '4')//output is  0.5
 console.log('4' / '2')// output is 2
 console.log('Jan' - 'Kan') // output is NaN
+console.log('5' - true)//output is 4
+console.log('5' - false) //output is 5
+console.log('5' - null) //output is 5
+console.log(5 + undefined)// output is NaN
+console.log('5' + undefined)// output is 5undefined
+console.log('5' - undefined) // output is NaN
