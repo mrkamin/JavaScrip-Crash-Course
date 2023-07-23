@@ -136,3 +136,4 @@ console.log('2' - '4')// output is -2
 console.log('2' * '4')// output is 8
 console.log('2' / '4')//output is  0.5
 console.log('4' / '2')// output is 2
+console.log('Jan' - 'Kan') // output is NaN
