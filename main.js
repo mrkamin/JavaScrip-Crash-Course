@@ -274,3 +274,20 @@ switch (color3) {
         break
 }
 // output is = color3 is Green
+
+const color4 = 10
+switch (color4) {
+    case 'red':
+        console.log('color4 is red')
+        break
+    case 'blue':
+        console.log('color4 is blue')
+        break
+        case 'Green':
+            console.log('color4 is Green')
+            break
+            default:
+                console.log('the value is not a valid color')
+                break
+}
+// output is = the value is not a valid color
