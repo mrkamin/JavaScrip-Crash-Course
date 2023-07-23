@@ -205,27 +205,72 @@ console.log(a) */
 
 // Condation
 
-const num = 5
+// const num = 5
 
-if (num > 0) {
-    console.log('Number is Positive')
-}
-// output is = Number is positive
+// if (num > 0) {
+//     console.log('Number is Positive')
+// }
+// // output is = Number is positive
 
-const num2 = -5
-if (num2 > 0) {
-    console.log('Number is Positive')
-} else {
-    console.log('Number is Negative')
-}
-// output is = Number is Negative
+// const num2 = -5
+// if (num2 > 0) {
+//     console.log('Number is Positive')
+// } else {
+//     console.log('Number is Negative')
+// }
+// // output is = Number is Negative
 
-const num3 = 0
-if (num3 > 0) {
-    console.log('Number is Positive')
-} else if (num3 < 0) {
-    console.log('Number is negative')
-} else {
-    console.log('Number is Zero')
+// const num3 = 0
+// if (num3 > 0) {
+//     console.log('Number is Positive')
+// } else if (num3 < 0) {
+//     console.log('Number is negative')
+// } else {
+//     console.log('Number is Zero')
+// }
+// //output is = Number is Zero
+
+
+//conditional with switch
+
+const color = 'red'
+switch (color) {
+    case 'red':
+        console.log('color is red')
+        break
+    case 'blue':
+        console.log('color is blue')
+        break
+    case 'Green':
+        console.log('color is Green')
+        break
 }
-//output is = Number is Zero
+// output is = color is red
+
+const color2 = 'blue'
+switch (color2) {
+    case 'red':
+        console.log('color2 is red')
+        break
+    case 'blue':
+        console.log('color2 is blue')
+        break
+    case 'Green':
+        console.log('color2 is Green')
+        break
+}
+
+//output is = color2 is blue
+
+const color3 = 'Green'
+switch (color3) {
+    case 'red':
+        console.log('color3 is red')
+        break
+    case 'blue':
+        console.log('color3 is blue')
+    case 'Green':
+        console.log('color3 is Green')
+        break
+}
+// output is = color3 is Green
