@@ -124,3 +124,15 @@ console.log(a) */
 
 // const isEvendivide = 10 / 2 === 0 ? 'number is even' : 'number is odd'// this operete beased condition
 // console.log(isEvendivide)// output = number is even
+ 
+//Type conversion
+
+// 	Implicit conversion 
+
+console.log(2 + '3') // output is 23
+console.log(true + '3') // output is true3
+console.log(2 - '4') // output is -2
+console.log('2' - '4')// output is -2
+console.log('2' * '4')// output is 8
+console.log('2' / '4')//output is  0.5
+console.log('4' / '2')// output is 2
