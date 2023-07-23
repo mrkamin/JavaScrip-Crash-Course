@@ -181,4 +181,10 @@ console.log(a) */
 // //console.log((undefined).toString()) //.tostring is not working with undefined type 
 // console.log(('').toString()) //output is empty string
 
-
+console.log(Boolean(10))//output is true
+console.log(Boolean(false))//output is false
+console.log(Boolean(true)) //output is true 
+console.log(Boolean(null))//output is false
+console.log(Boolean(undefined)) //output is false
+console.log(Boolean('')) //output is false
+console.log(Boolean('Ahmmad'))// outp is true
