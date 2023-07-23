@@ -153,11 +153,17 @@ console.log(a) */
 // console.log(Number(undefined)) //output is NaN
 // console.log(Number('')) //output is 0
 
-console.log(parseInt('5'))//output is 5
-console.log(parseInt(false))//output is NaN
-console.log(parseInt(true)) //output is NaN
-console.log(parseInt(null))//output is NaN
-console.log(parseInt(undefined)) //output is NaN
-console.log(parseInt('')) //output is NaN
+// console.log(parseInt('5'))//output is 5
+// console.log(parseInt(false))//output is NaN
+// console.log(parseInt(true)) //output is NaN
+// console.log(parseInt(null))//output is NaN
+// console.log(parseInt(undefined)) //output is NaN
+// console.log(parseInt('')) //output is NaN
 
+console.log(parseFloat('5.5'))//output is 5.5
+console.log(parseFloat(false))//output is NaN
+console.log(parseFloat(true)) //output is NaN
+console.log(parseFloat(null))//output is NaN
+console.log(parseFloat(undefined)) //output is NaN
+console.log(parseFloat('')) //output is NaN
 
