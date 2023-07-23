@@ -167,9 +167,18 @@ console.log(a) */
 // console.log(parseFloat(undefined)) //output is NaN
 // console.log(parseFloat('')) //output is NaN
 
-console.log(String(500))//output is 500 as string
-console.log(String(false))//output is fakse as string
-console.log(String(true)) //output is true as a string
-console.log(String(null))//output is null as a string
-console.log(String(undefined)) //output is undefined as a string
-console.log(String('')) //output is empty string
+// console.log(String(500))//output is 500 as string
+// console.log(String(false))//output is fakse as string
+// console.log(String(true)) //output is true as a string
+// console.log(String(null))//output is null as a string
+// console.log(String(undefined)) //output is undefined as a string
+// console.log(String('')) //output is empty string
+
+// console.log((500).toString())//output is 500 as string
+// console.log((false).toString())//output is fakse as string
+// console.log((true).toString()) //output is true as a string
+// //console.log((null).toString())//.tostring is not working with null type
+// //console.log((undefined).toString()) //.tostring is not working with undefined type 
+// console.log(('').toString()) //output is empty string
+
+
