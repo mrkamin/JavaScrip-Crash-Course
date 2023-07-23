@@ -146,10 +146,18 @@ console.log(a) */
 
 // Explicit conversion
 
-console.log(Number('5'))//output is 5
-console.log(Number(false))//output is 0
-console.log(Number(true)) //output is 1
-console.log(Number(null))//output is 0
-console.log(Number(undefined)) //output is NaN
-console.log(Number('')) //output is 0
+// console.log(Number('5'))//output is 5
+// console.log(Number(false))//output is 0
+// console.log(Number(true)) //output is 1
+// console.log(Number(null))//output is 0
+// console.log(Number(undefined)) //output is NaN
+// console.log(Number('')) //output is 0
+
+console.log(parseInt('5'))//output is 5
+console.log(parseInt(false))//output is NaN
+console.log(parseInt(true)) //output is NaN
+console.log(parseInt(null))//output is NaN
+console.log(parseInt(undefined)) //output is NaN
+console.log(parseInt('')) //output is NaN
+
 
