@@ -228,4 +228,4 @@ if (num3 > 0) {
 } else {
     console.log('Number is Zero')
 }
-//out put is = Number is Zero
+//output is = Number is Zero
